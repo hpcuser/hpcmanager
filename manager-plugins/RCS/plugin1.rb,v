@@ -1,0 +1,33 @@
+head	1.1;
+access;
+symbols;
+locks
+	rblaszcz:1.1; strict;
+comment	@# @;
+expand	@o@;
+
+
+1.1
+date	2009.03.14.13.46.04;	author rblaszcz;	state Exp;
+branches;
+next	;
+
+
+desc
+@vim
+@
+
+
+1.1
+log
+@vim
+@
+text
+@###
+# this would go in PLUGIN_DIR/whatever.rb
+# it'd be loaded as shown above
+
+class MyPlugin < PluginBase
+  def foo; 1 end
+end
+@
